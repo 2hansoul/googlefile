@@ -1,6 +1,6 @@
 <?php
 include  $_SERVER['DOCUMENT_ROOT']. "/header/header.php";
-include  $_SERVER['DOCUMENT_ROOT']. "/project/loginsession.php";
+include  $_SERVER['DOCUMENT_ROOT']. "/project/login/loginsession.php";
 ?>
 
 <!--세션으로 이쪽페이지 로그인 되면 아예 실행이 안되게 설정 해야겠음-->
