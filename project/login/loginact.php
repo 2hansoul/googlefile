@@ -1,5 +1,5 @@
 <?php
-
+	include  $_SERVER['DOCUMENT_ROOT']. "/header/header.php";
 	 include "loginsession.php";
 	 include "dbconnMS.php";
 	 include "password.php";
