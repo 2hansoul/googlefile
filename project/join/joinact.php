@@ -30,8 +30,9 @@ id = 1111 ' or 1=1 select * from user';
 */
 -->
 <?php
-include "dbconnMS.php";
-include "password.php";
+include  $_SERVER['DOCUMENT_ROOT']. "/project/DB/dbconnMS.php";
+include  $_SERVER['DOCUMENT_ROOT']. "/project/join/password.php";
+
 
 
 //입력값 검증  (입력한 값=받아온 값이 일치하냐)?

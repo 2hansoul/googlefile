@@ -138,12 +138,7 @@ function check(){
 <style>
 
 
-.div_login{
 
-}
-
-.input_id{
-}
 
 .div_loginmain{
 	border: 1px solid #212020;
@@ -167,9 +162,8 @@ function check(){
 	border-color:black;
 }
 
-input:focus{
 
-}
+
 .tempInput1 {
     border-top: 1px;
     border-left: 1px;
