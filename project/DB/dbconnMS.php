@@ -3,7 +3,7 @@
 $host="192.168.5.128";
 $user="hansol";
 $pass="hansol";
-$dbname= "mysql";
+$dbname= "sms";
 
 $conn=mysqli_connect($host,$user,$pass,$dbname);
 
