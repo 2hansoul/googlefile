@@ -18,8 +18,12 @@
 		<!-- background CSS (includes Bootstrap)-->
 		<!-- slide CSS (includes Bootstrap)-->
         <!--aaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<<<<<<< HEAD
 
 aagf
+=======
+afgafgaf
+>>>>>>> 5ba45aa875b6eceefd33c605f47a17a001f5feb2
     </head>
     <body id="page-top">
         <!-- Navigation-->
