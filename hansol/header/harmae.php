@@ -18,8 +18,6 @@
 		<!-- background CSS (includes Bootstrap)-->
 		<!-- slide CSS (includes Bootstrap)-->
         <!--aaaaaaaaaaaaaaaaaaaaaaaaaa-->
-
-
     </head>
     <body id="page-top">
         <!-- Navigation-->
