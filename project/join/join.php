@@ -1,6 +1,6 @@
 <?php
 include  $_SERVER['DOCUMENT_ROOT']. "/header/header.php";
-include	 $_SERVER['DOCUMENT_ROOT']. "/test/hhhh.php";
+include	 $_SERVER['DOCUMENT_ROOT']. "/DB/dbconnMS.php";
 ?>
 <html>
 <head>
