@@ -4,7 +4,7 @@
 	 include "dbconnMS.php";
 	 include "password.php";
 /*
-	 $host="localhost";
+	 $host="localhost";aaa
 	 $user="root";
 	 $pass="1111";
 	 $dbname= "user_login";
