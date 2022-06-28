@@ -20,7 +20,7 @@ if(time < 0){
         document.querySelector("#test").innerHTML = "<a href='https://hansoul.tistory.com/'>tistory</a>"; 
     }
 }
-} , 1000); // 1000ms 는 1s 입니다 맞춤 (1000밀리세컨드 = 1세컨드(초))
+} , 1000); // 1000ms 는 1s 입니다 맞춤!!! (1000밀리세컨드 = 1세컨드(초))
 
 </script>
 <div id="test"></div>
