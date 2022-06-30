@@ -2,9 +2,8 @@
 
 #read -p "add file name :" file 
 
-#파일 삭제시 add 하는거 추가  문자열 push 하기
-
-
+#git config user.name ""
+#git config user.email ""
 
 
 git add .
@@ -16,14 +15,14 @@ echo "add all file"
 git status
 
 read  -p "git commit -m : " commit
-
+#커밋메시지 안 남기면 최대3번 까지 물어본다 말 하면 종료한다
 for ((i=0; i<2; i++))
 do 
     if [ -z "$commit" ] ; then
         echo "commit 메시지를 남겨주세요"
         read -p  "git commit -m : " commit 
     else  
-        read -p "$commit message commit 하시겠습니까[y/n]?" yn
+        read -p "$commit message commit 하시겠습니까?[y/n]?" yn
         case $yn in
             [Yy]* ) git commit -m "$commit";  git push origin master; break;;
             [Nn]* ) exit;;

@@ -27,16 +27,22 @@
      
       } 
       // (4) ==================================
-      function myRandomNo() {
+      function myRandomNo(type) {
        var x = []; 
-       for(var i=0; i<=3; i++){
-          var rnum=  Math.floor((Math.random() *((100 -51))+50));
-          x[i]= rnum; 
-          console.log(x);
-        document.getElementById('myNumber').innerText = x;
+       var view= document.getElementById('myNumber1').innerText; //
+       for(var i=0; i<=5; i++){
+          var rnum=  Math.floor((Math.random() *46));  //Math.random() 함수의 결과는 0~45.99999..
+          x[i]= rnum;                                   
+          document.getElementById('myNumber').innerText = x;
        }
+       console.log(type);
+       console.log(view);
+       if(type === "button"){
+        view=parseInt(view)+1;
       }
-      // (5) ==================================
+      document.getElementById('myNumber1').innerText=view;
+      }
+       // (5) ==================================
       function show(obj) {
 
       }
@@ -142,11 +148,11 @@
       </div>
     <hr> 
 <!--          -->
-    <b> (4) Random Number (4 numbers in 50 &le; x &lt; 100) generator : 
-      <input value="Give Me!" onclick="myRandomNo()" type="button">
-      <span id="myNumber"> 00, 00, 00, 00</span>
+    <b> (4) 로또 번호 뽑아야지 ㅎㅎ
+      <input value="Give Me!" onclick="myRandomNo(type)" type="button">
+      <span id="myNumber"> 00, 00, 00, 00, 00, 00 </span>
+      <span>카운트</span><span id="myNumber1">0</span>
     </b>
-    [ Hint: Math.random(), Math.floor() ] 
     <hr> 
 <!--          -->
     <b>(5) 
