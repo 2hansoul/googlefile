@@ -2,8 +2,8 @@
 
 #read -p "add file name :" file 
 
-#git config user.name ""
-#git config user.email ""
+git config user.name "2hansoul"
+git config user.email "2hansoul@naver.com"
 
 
 git add .
