@@ -28,23 +28,20 @@
       } 
       // (4) ==================================
       function myRandomNo(type) {
-       var x = new array(6);
+       var x = new Array(6);
        var view= document.getElementById('myNumber1').innerText; //
        console.log(x);
        for(var i=0; i<x.length; i++){
-          var rnum=  Math.floor((Math.random() * 45)+1);  //Math.random() 함수의 결과는 0~45.99999..
-          x[i]= rnum;   
-          if(x[i] === x.length){
-          document.getElementById('myNumber').innerText = x;
-          alert("중복");
-        }else{                      
-          document.getElementById('myNumber').innerText = x;
-          }
+          x[i]=  Math.floor((Math.random() * 45)+1);  //Math.random() 함수의 결과는 0~45.99999..
+          for(var j=0; j<i; j++){
+            if(x[i] == x[j]){           //x[0] = x[0] 같으면 중복이라고 판단 한다 
+              i--;                      //같은 배열에서 중복이 아닐때 까지 i--를 하여 랜덤숫자를 뽑는다 
+            }else{
+              document.getElementById('myNumber').innerText = x;
+            }
+          }   
         }
-       console.log(type);
-       console.log(view);
-       //버튼 누른만큼 +1
-       if(type === "button"){
+       if(type === "button"){    //누른만큼 카운트 하기
         view=parseInt(view)+1;
       }
       document.getElementById('myNumber1').innerText=view;
