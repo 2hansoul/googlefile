@@ -28,15 +28,22 @@
       } 
       // (4) ==================================
       function myRandomNo(type) {
-       var x = []; 
+       var x = new array(6);
        var view= document.getElementById('myNumber1').innerText; //
-       for(var i=0; i<=5; i++){
-          var rnum=  Math.floor((Math.random() *46));  //Math.random() 함수의 결과는 0~45.99999..
-          x[i]= rnum;                                   
+       console.log(x);
+       for(var i=0; i<x.length; i++){
+          var rnum=  Math.floor((Math.random() * 45)+1);  //Math.random() 함수의 결과는 0~45.99999..
+          x[i]= rnum;   
+          if(x[i] === x.length){
           document.getElementById('myNumber').innerText = x;
-       }
+          alert("중복");
+        }else{                      
+          document.getElementById('myNumber').innerText = x;
+          }
+        }
        console.log(type);
        console.log(view);
+       //버튼 누른만큼 +1
        if(type === "button"){
         view=parseInt(view)+1;
       }
@@ -148,7 +155,7 @@
       </div>
     <hr> 
 <!--          -->
-    <b> (4) 로또 번호 뽑아야지 ㅎㅎ
+    <b> (4) math.range ㅎㅎ
       <input value="Give Me!" onclick="myRandomNo(type)" type="button">
       <span id="myNumber"> 00, 00, 00, 00, 00, 00 </span>
       <span>카운트</span><span id="myNumber1">0</span>
