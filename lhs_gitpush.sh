@@ -2,7 +2,7 @@
 
 #read -p "add file name :" file 
 
-git config user.name "2hansoul"
+git config user.name "lhs"
 git config user.email "2hansoul@naver.com"
 
 
