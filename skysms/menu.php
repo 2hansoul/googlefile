@@ -71,7 +71,7 @@ require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
 												<a href="javascript:buycouponLayer()" class="btns img mainBtns002"></a>
 											</div>
 											<div class="infli">
-												<span class="lb">마일리지</span>
+												<span class="lb">마일adfadf지</span>
 												<div class="tt">
 													<span class="vtt"><span id='vMileage'></span></span>
 												</div>
