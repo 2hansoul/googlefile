@@ -120,7 +120,7 @@ require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
 										<a href="/send_lms/" class="txt" title="장문 문자"></a>
 										<ul class="depth2">
 											<li class="tp">
-												<a href="/send_lms/" class="txt">장문문자</a>
+												<a href="/send_lms/" class="txt">장문자</a>
 											</li>
 											<li class="tp">
 												<a href="/send_lmsg/" class="txt">장문대량<br>단체전송</a>
