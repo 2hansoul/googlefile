@@ -64,7 +64,7 @@ require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
 									<div class="intfil">
 										<div class="inftLt">
 											<div class="infli">
-												<span class="lb">보유잔액</span>
+												<span class="lb">보adffffffffff액</span>
 												<div class="tt">
 													<span class="vtt"><span id='vMoney'></span>3,000</span>원
 												</div>
