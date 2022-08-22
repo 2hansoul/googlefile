@@ -166,7 +166,7 @@ include  $_SERVER['DOCUMENT_ROOT']. "/testfile/header/header.php";
         <td style=""><font style="font-size:25">공지사항</font></td>
       </tr>
       <tr style="">
-        <td style=""><a href="../test/result.php">[알림]ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</a></td>
+        <td style=""><a href="../test/result.php">[알림]111adfadfad</a></td>
       </tr>
       <tr style="">
         <td style="">[알림]2222222222222222</td>
