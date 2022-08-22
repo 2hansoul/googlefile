@@ -85,7 +85,7 @@ require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
 											<div class="infli">
 												<div class="lb img mainBtns005">
 													<select class="lbSel cstSelect" >
-														<option value='sms'>단문 문자</option>
+														<option value='sms'>ggsgafgafg</option>
 														<option value='lms'>장문 문자</option>
 														<option value='mms'>포토 문자</option>
 														<option value='talk'>알림톡</option>
