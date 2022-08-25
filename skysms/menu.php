@@ -1,6 +1,6 @@
 <?php
 require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
-echo "aaaa";
+echo "bbb";
 ?>
 <html>
 <head>
