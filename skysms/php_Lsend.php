@@ -1,3 +1,4 @@
+<?php echo "asdfasd"; ?>
 <form method="GET" action="php_send_ex_sample.php">
     <div>
 	<h3>장문메시지</h3>   
