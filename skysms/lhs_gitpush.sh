@@ -27,7 +27,7 @@ do
     else  
         read -p "$commit message commit 하시겠습니까[y/n]?" yn
         case $yn in
-            [Yy]* ) git commit -m "$commit";  git push private  master; break;;
+            [Yy]* ) git commit -m "$commit";  git push master  master; break;;
             [Nn]* ) exit;;
         esac    
     fi
