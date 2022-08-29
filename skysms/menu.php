@@ -1,6 +1,6 @@
 <?php
 require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
-echo "메뉴파일 수정";
+echo "메뉴파일 수정한다";
 ?>
 <html>
 <head>
