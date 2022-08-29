@@ -15,7 +15,7 @@ $day = date('Ymd');
 echo  $timestamp;
 
 
-
+echo "8/29 1250 aws->git";
 
 
 ?>
