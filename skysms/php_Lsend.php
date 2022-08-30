@@ -1,4 +1,4 @@
-<?php echo "asdfasd"; ?>
+<?php echo "8/31 0855 aws->git" ?>
 <form method="GET" action="php_send_ex_sample.php">
     <div>
 	<h3>장문메시지</h3>   

@@ -1,6 +1,6 @@
 <?php
 require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
-echo "메뉴파일 수정한다";
+echo "8/31 0855 aws->git"
 ?>
 <html>
 <head>
