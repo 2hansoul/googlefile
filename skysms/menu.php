@@ -1,6 +1,6 @@
 <?php
 require $_SERVER["DOCUMENT_ROOT"] . "/testfile/project/login/loginsession.php";
-echo "8/31 0904 aws->git"
+echo "8/31 0909 aws->git"
 ?>
 <html>
 <head>
