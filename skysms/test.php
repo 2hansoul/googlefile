@@ -15,7 +15,7 @@ $day = date('Ymd');
 echo  $timestamp;
 
 
-echo "8/31 0920 aws->git"
+echo "8/31 0925 aws->git"
 
 
 ?>
