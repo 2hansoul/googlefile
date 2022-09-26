@@ -1,4 +1,4 @@
-asdfasda
+0926 1145
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 var time = 325; //5분25초시간 맞춤
