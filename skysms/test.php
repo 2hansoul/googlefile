@@ -1,21 +1,25 @@
 <?php 
-$day = date('Ymd');
+include "/var/www/html/googlefile/skysms/lib/lib.php";
 
-//$timestamp=strtotime(date('2022-08-25 14:35:00')) - strtotime("now");	
+if (!$connect) $connect = aws_db();
 
+$arry = array('1','2','3');
 
-	//echo strtotime(date('2022-08-25 15:00:00'))."<br>";
-	//echo strtotime("20220825");
+echo "기본 foreach 방식<br>";
+foreach($arry as $value){
+	echo $value."<br>";
+}
 
-	//$timestamp = strtotime("+1 minutes");
-	//echo "현재로부터 1분 뒤 : ".date("Y-m-d H:i:s", $timestamp)."<br/>";
+echo "key foreach 방식<br>";
+$arry = array(
+	"A" => '1',
+	"B" => '2',
+	"C" => '3'
+);
 
-	$timestamp =strtotime(date('now')) - strtotime(date('now'));
-	
-echo  $timestamp;
-
-
-echo "8/31 1058 aws->git"
+foreach($arry as $key => $value){
+	echo "$key : $value"."<br>";
+}
 
 
 ?>
