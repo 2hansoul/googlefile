@@ -1,4 +1,4 @@
-asdfasda
+bbbbbbbbbbbbbbbbbb926 1634
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 var time = 325; //5분25초시간 맞춤
@@ -23,5 +23,5 @@ if(time < 0){
 } , 10); // 1000ms 는 1s 입니다 맞춤!!! (1000밀리세컨드 = 1세컨드(초))
 
 </script>
-<h3>깃허브 vs코드 연동 잘 되었는지</h3>
 <div id="test"></div>
+<h3>timer</h3>
