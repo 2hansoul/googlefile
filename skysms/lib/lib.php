@@ -6,10 +6,10 @@ function aws_db(){
     $host = "13.125.0.94";
     $id   = "hansol"; 
     $pw   = "1234";
-    $dbname = "dbro";
+    $dbname = "npro";
 
     if(!$connect){
-        $connect = mysqli_connect($host, $id, $pw,$dbname);
+        $connect = mysqli_connect($host, $id, $pw, $dbname);
     }else{
        echo "DB 접속시 에러가 발생했습니다";
     }

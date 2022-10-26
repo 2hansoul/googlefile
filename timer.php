@@ -1,4 +1,5 @@
-ccccccccccbbbbbbbbbbbbbbbbb926 1634
+aaaaaaaaaa
+<!--
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 var time = 325; //5분25초시간 맞춤
@@ -25,3 +26,34 @@ if(time < 0){
 </script>
 <div id="test"></div>
 <h3>timer</h3>
+-->
+
+<script>
+function move(){
+     if(confirm("이동하시려면 yes 아니면 no"))
+ {
+     location.href="https://hansoul.tistory.com/";
+ }
+ else
+ {
+ alert('no를 누르셨습니다');
+ }
+}
+var time = 3;
+var min = "";
+var sec= "";
+
+var x = setInterval(function(){
+
+        sec= time%60;
+
+    document.getElementById("test").innerHTML = '다운로드까지 '+sec+'초 남았습니다.';
+    time--;
+
+if(time < 0){
+ clearInterval(x);
+   document.querySelector("#test").innerHTML = "gogogogo";
+}
+} , 1000);
+</script>
+<div id='test' onclick="move()" style="cursor: pointer;color:red"></div>
